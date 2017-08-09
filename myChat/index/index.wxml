@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="list">
+  <view class="first" bindtap="jsq">
+    <button>简易计算器</button>
+  </view>
+  <view class="first" bindtap="movie"> 
+     <button>豆瓣电影</button> 
+  </view>
+</view>

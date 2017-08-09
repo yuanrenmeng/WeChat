@@ -1,0 +1,46 @@
+{
+  "pages": [ 
+  
+    "pages/index/index",
+    "pages/logs/logs",
+    "myChat/index/index",
+    "myChat/couster/main",
+    "myChat/movie/index/index",
+    "myChat/movie/recommend/recommend",
+    "myChat/movie/search/search",
+    "myChat/movie/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的微信小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#379D31",
+    "backgroundColor": "#2B2B2B",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "myChat/movie/index/index",
+        "text": "影院热映",
+        "iconPath": "myChat/movie/images/dy-1.png",
+        "selectedIconPath": "myChat/movie/images/dy.png"
+      },
+      {
+        "pagePath": "myChat/movie/recommend/recommend",
+        "text": "影院推荐",
+        "iconPath": "myChat/movie/images/dy-1.png",
+        "selectedIconPath": "myChat/movie/images/dy.png"
+      },
+      {
+        "pagePath": "myChat/movie/search/search",
+        "text": "搜索电影",
+        "iconPath": "myChat/movie/images/dy-1.png",
+        "selectedIconPath": "myChat/movie/images/dy.png"
+      }
+
+    ]
+  }
+}

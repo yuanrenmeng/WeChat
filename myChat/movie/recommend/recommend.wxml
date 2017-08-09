@@ -1,0 +1,29 @@
+<view class="header">
+ <navigator url="../../index/index"> 《返回 </navigator> 
+<text>豆瓣电影</text>
+</view>
+<view class="content">
+  <block wx:for="{{movie}}" data="{{item}}">
+  <view class="movie_list" id="{{item.id}}" bindtap="detail">
+    <view class="pic">
+      <image src="{{item.images.medium}}" mode="aspectFit"></image>
+    </view> 
+      <view class="movie-info">
+        <view> 名称：{{item.title}}</view>
+        <view> 导演：
+          <text wx:for="{{item.directors}}" wx:for-item="directors">
+            {{directors.name}}
+          </text>    
+        </view>
+        <view> 主演：
+          <text wx:for="{{item.casts}}" wx:for-item="casts">
+            {{casts.name}}
+          </text>  
+        </view> 
+        <view> 类型：{{item.genres}}</view>
+        <view> 上映年份：{{item.year}}</view>
+      </view>
+  </view>
+  </block>
+
+</view>

@@ -1,0 +1,38 @@
+<!--main.wxml-->
+<view class="header">
+  <text>简易计算器</text>
+</view>
+<view class="sum">
+ <text>{{screenData}}</text>
+</view>
+<view class="number">
+  <view class="jisuan">
+    <button bindtap="clickBtn" id='{{idadd}}'>+</button>
+    <button bindtap="clickBtn" id='{{idj}}'>-</button>
+    <button bindtap="clickBtn" id='{{idx}}'>x</button>
+    <button bindtap="clickBtn" id='{{iddel}}'>÷</button>
+    <button bindtap="clickBtn" id='{{ide}}'>=</button>
+  </view>
+  <view class="tubiao">
+    <button bindtap="clickBtn" id='{{idc}}'>C</button>
+    <button bindtap="clickBtn" id='{{idb}}'> ← </button>
+    <button bindtap="history">
+    <icon type="waiting_circle" color="white" class="icon" size="25"/>
+    </button >
+  </view>
+  <view class="num">
+    <button bindtap="clickBtn" id='{{id9}}'>9</button>
+    <button bindtap="clickBtn" id='{{id8}}'>8</button>
+    <button bindtap="clickBtn" id='{{id7}}'>7</button>
+    <button bindtap="clickBtn" id='{{id6}}'>6</button>
+    <button bindtap="clickBtn" id='{{id5}}'>5</button>
+    <button bindtap="clickBtn" id='{{id4}}'>4</button>
+    <button bindtap="clickBtn" id='{{id3}}'>3</button>
+    <button bindtap="clickBtn" id='{{id2}}'>2</button>
+    <button bindtap="clickBtn" id='{{id1}}'>1</button>
+    <button bindtap="clickBtn" id='{{id0}}'>0</button>
+    <button bindtap="clickBtn" id='{{idd}}'>.</button>
+  </view>
+</view>
+
+
